@@ -1,0 +1,109 @@
+@import "./element/index.less";
+@import "./transition.less";
+@import "./quill-editor/index.less";
+@import "./iconfont/iconfont.css";
+body{
+    margin: 0;
+    background: #EEEEEE;
+    box-sizing: border-box;
+    font-size: 14px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+    padding-bottom: 20px;
+}
+.main-wrapper{
+  width: 1079px;
+  margin: 94px auto 20px auto;
+}
+.mask {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  z-index: 2000;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+input{
+    border: none;
+    background-color: transparent;
+    outline:none;
+  }
+  label {
+    font-weight: 700;
+  }
+
+  html {
+    box-sizing: border-box;
+  }
+  
+
+  *,
+*:before,
+*:after {
+  box-sizing: inherit;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ell{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space:nowrap;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+div:focus {
+  outline: none;
+}
+
+.clearfix {
+    &:after {
+      visibility: hidden;
+      display: block;
+      font-size: 0;
+      content: " ";
+      clear: both;
+      height: 0;
+    }
+  }
+  ::-webkit-input-placeholder {
+    color: #becad7;
+  }
+  :-moz-placeholder {
+    color: #becad7;
+  }
+  ::-moz-placeholder {
+    color: #becad7;
+  }
+  :-ms-input-placeholder {
+    color: #becad7;
+  }
+  .text-right{
+    text-align: right;
+  }
+    .vjs-slide{
+      order: 5;
+      cursor: pointer;
+    }
+
+    textarea{
+      resize: none;
+      outline: none;
+    }

@@ -1,0 +1,108 @@
+{
+    "data": [
+        {
+            "name": "备课平台",
+            "type": 1,
+            "index": "lessonPreparation",
+            "disabled": false,
+            "children": [
+                {
+                    "name": "创建课堂教学方案",
+                    "type": 0,
+                    "index": "/lessonPreparation/createPlan",
+                    "disabled": false,
+                    "children": []
+                },
+                {
+                    "name": "课堂教学方案管理",
+                    "type": 0,
+                    "index": "/lessonPreparation/planManagement",
+                    "disabled": false,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "课后管理",
+            "type": 1,
+            "index": "afterClass",
+            "disabled": false,
+            "children": [
+                {
+
+                    "name": "课堂分析及反思",
+                    "type": 0,
+                    "icon": null,
+                    "index": "/classWork",
+                    "disabled": false,
+                    "children": []
+                },
+                {
+                    
+                    "name": "教师教案管理",
+                    "type": 0,
+                    "icon": null,
+                    "index": "/lessonPlan",
+                    "disabled": false,
+                    "children": []
+                },
+                {
+                    "name": "课下作业",
+                    "type": 0,
+                    "icon": null,
+                    "index": "/afterClassWork",
+                    "disabled": false,
+                    "children": []
+                },
+                {
+                    "name": "布置作业",
+                    "type": 0,
+                    "icon": null,
+                    "index": "/homeworkTo",
+                    "disabled": false,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "考试",
+            "type": 1,
+            "index": "exam",
+            "disabled": false,
+            "children": [
+                {
+                    "name": "试卷管理",
+                    "type": 0,
+                    "icon": null,
+                    "index": "/exam/examItem",
+                    "disabled": false,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "我的资料",
+            "type": 1,
+            "index": " material",
+            "disabled": false,
+            "children": [
+                {
+                    "name": "素材管理",
+                    "type": 0,
+                    "icon": null,
+                    "index": "/myMaterial/materialManage",
+                    "disabled": false,
+                    "children": []
+                },
+                {
+                    "name": "我的题库",
+                    "type": 0,
+                    "icon": null,
+                    "index": "/myMaterial/questionBank",
+                    "disabled": false,
+                    "children": []
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+export const word = 1
+export const ppt = 3
+export const excel = 2
+export const pdf = 7
+export const image = 6
+export const audio = 5
+export const video = 4
+export const mould = 8
+export const files = [word, ppt, excel, pdf, image, audio, video, mould]
